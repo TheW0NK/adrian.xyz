@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanic Museum</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Titanic Museum</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#exhibits">Exhibits</a></li>
+                <!-- Add more navigation items as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="exhibits">
+        <h2>Exhibits</h2>
+        
+        <article id="metal">
+            <h3>Metal of the Titanic</h3>
+            <p>The metal used in the construction of the Titanic had several negative qualities. The steel was found to be brittle at low temperatures, which contributed to the hull fracturing upon impact with the iceberg. Additionally, the rivets used were of substandard quality, which further weakened the ship's structure.</p>
+            <button class="load-more" data-target="metal">Learn More</button>
+            <div class="extra-content" id="extra-metal"></div>
+        </article>
+
+        <article id="hull-bulkheads">
+            <h3>Hull and Bulkheads</h3>
+            <p>The hull and bulkheads of the Titanic had significant design flaws. The bulkheads did not extend high enough, allowing water to spill over into adjacent compartments. This design flaw was a critical factor in the rapid sinking of the ship. Furthermore, the hull's double bottom did not extend up the sides of the ship, which could have provided additional protection against breaches.</p>
+            <button class="load-more" data-target="hull-bulkheads">Learn More</button>
+            <div class="extra-content" id="extra-hull-bulkheads"></div>
+        </article>
+    </section>
+
+    <!-- Add more content here -->
+
+    <script src="scripts.js"></script>
+</body>
+</html>

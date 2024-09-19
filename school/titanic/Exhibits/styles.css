@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    background-image: url('titanic-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+section#exhibits {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    color: #444;
+}
+
+button.load-more {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.load-more:hover {
+    background-color: #666;
+}
+
+.extra-content {
+    display: none;
+    margin-top: 10px;
+}
